@@ -1,0 +1,188 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(Tipografia/coolvetica.otf);
+}
+
+body {
+    background-color: #f1ceda; 
+    margin: 100px 0px 0px 0px;
+    padding: 0px;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(226, 140, 193);
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    
+}
+
+
+#logo {
+    width: 120px;
+}
+
+.nav-link {
+    font-family: coolvetica;
+    font-size: 20px;
+    color: #f1ceda;
+    font-weight: 550;
+    padding-right: 20px;
+    
+}
+
+.textbody {
+    font-family: coolvetica;
+    font-size: 100px;
+    color: rgb(226, 140, 193);
+    font-weight: 550;
+    padding-right: 20px;
+    
+}
+
+
+.text-list-products {
+    font-family: coolvetica;
+    font-size: 30px;
+    color: rgb(226, 140, 193);
+    font-weight: 500;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-icon-index{
+    width: 100%;
+}
+
+.image-container{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.waico:hover{
+    box-shadow: 0 0 5px gray;
+    border-radius: 50px;
+}
+
+.waico {
+    position: fixed;
+    bottom: 7px;
+    right: 6px;
+    margin: 5px;
+}
+
+.listprincipal li a img{
+    width: 100px;
+}
+
+.listorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.banner{
+    width: 500px;
+    height: 680px;
+    list-style: none;
+    display: flex;
+    margin-left: 53px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: coolvetica;
+    color: rgb(226, 140, 193);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.textbanner {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: coolvetica;
+    color: rgb(226, 140, 193);
+    font-size: 20px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+.nolista ul li {
+    list-style: none;
+    display: flex;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: coolvetica;
+    font-size: 30px;
+    color: rgb(226, 140, 193);
+}
+
+.instagram-container div {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgba(175, 80, 147, 0.925);
+    justify-content: space-around;
+    color: #f1ceda;
+    font-family: coolvetica;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-titles{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fontw li a div h4 {
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: rgba(175, 80, 147, 0.925);
+}
+
+h4:hover{
+    text-shadow: 0 0 2px rgba(175, 80, 147, 0.925);
+}
+
+.derechos{
+    display: block;
+
+}
+
+.test{
+    display: flex;
+}
