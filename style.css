@@ -186,3 +186,28 @@ h4:hover{
 .test{
     display: flex;
 }
+
+.parpedidos p{
+    display: flex;
+    justify-content: left;
+    margin-left: 150px;
+    font-family: coolvetica;
+    color: rgba(175, 80, 147, 0.925);
+    font-size: 18px;
+}
+
+.txt-cont-ped {
+    width: 50%;
+}
+
+.titpedidos h3{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-family: coolvetica;
+    color: rgb(226, 140, 193);
+    font-size: 35px;
+    font-weight: 500;
+    justify-content: left;
+
+}
