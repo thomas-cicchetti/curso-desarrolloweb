@@ -8,7 +8,7 @@ body {
     margin: 100px 0px 0px 0px;
     padding: 0px;
     position: relative;
-    padding-bottom: 70px;
+    
 }
 
 header {
@@ -68,16 +68,13 @@ header {
     margin-top: 5px;
 }
 
-.waico:hover{
-    box-shadow: 0 0 5px gray;
-    border-radius: 50px;
-}
-
 .waico {
     position: fixed;
-    bottom: 7px;
-    right: 6px;
+    bottom: 4px;
+    right: 12px;
     margin: 5px;
+    font-size: 50px;
+
 }
 
 .listprincipal li a img{
@@ -151,21 +148,6 @@ a{
     margin-bottom: 30px;
 }
 
-footer {
-    background-color: rgba(175, 80, 147, 0.925);
-    justify-content: space-around;
-    color: #f1ceda;
-    font-family: coolvetica;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-titles{
-    font-size: 20px;
-    font-weight: 500;
-}
-
 .fontw li a div h4 {
     font-weight: 500;
 }
@@ -176,15 +158,6 @@ nav a:hover{
 
 h4:hover{
     text-shadow: 0 0 2px rgba(175, 80, 147, 0.925);
-}
-
-.derechos{
-    display: block;
-
-}
-
-.test{
-    display: flex;
 }
 
 .parpedidos p{
@@ -210,4 +183,148 @@ h4:hover{
     font-weight: 500;
     justify-content: left;
 
+}
+
+.prod-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.txt-prod-cont{
+    padding: 15px;
+    width: 450px;
+}
+
+.image-prod{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.image-prod-alternative{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+.image-title{
+    margin-right: 20px;
+}
+
+.subtitle-prod{
+    font-family: coolvetica;
+    font-weight: 500;
+    margin-top: 100px;
+    color: rgb(226, 140, 193);
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.section-color-alternative{
+    background-color: rgba(175, 80, 147, 0.925);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.align-container {
+    align-items: center;
+}
+
+.h3title{
+    font-family: coolvetica;
+    font-weight: 500;
+    color: rgb(226, 140, 193);
+    font-size: 30px;
+}
+
+.p-text{
+    font-family: coolvetica;
+    font-weight: 500;
+    color: rgb(226, 140, 193);
+    font-size: 20px;
+}
+
+.p-text-alt{
+    font-family: coolvetica;
+    font-weight: 500;
+    color: #f1ceda;
+    font-size: 20px;
+}
+
+.h3title-alt{
+    font-family: coolvetica;
+    font-weight: 500;
+    color: #f1ceda;
+    font-size: 30px;
+}
+
+.derechos{
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+footer {
+    background-color: rgba(175, 80, 147, 0.925);
+    justify-content: space-around;
+    color: #f1ceda;
+    font-family: coolvetica;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.flex-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-icon-foot{
+    display: flex;
+}
+
+.redes-center{  
+    text-align: center;
+}
+
+.text-foot section a p{
+    margin: 3px;
+    text-decoration: none;
+}
+
+.incon-distance a i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.text-hov:hover{
+    color: rgb(226, 140, 193);
+    text-decoration: underline;
+}
+
+.text-hov:visited{
+    text-decoration: none;
+}
+
+.testeo{
+    text-decoration: none;
+}
+
+.color{
+    color:#f1ceda;
+    display: block;
+    
 }
