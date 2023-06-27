@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Linda Creaciones - Diseño e Impresiones</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,6 +39,35 @@
         </p>
     </div>
 
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="Multimedia/img1.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img2.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img3.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img4.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img5.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img6.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img7.png" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img8.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img9.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img10.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img11.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img12.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img13.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img14.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img15.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img16.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img17.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img18.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img19.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img20.jpg" class="banner" alt="img"></li>
+                    <li class="splide__slide"><img src="Multimedia/img21.jpg" class="banner" alt="img"></li>
+                </ul>
+        </div>
+    </div>
+
+    <!--  
     <div>
         <ul class="banner">
             <li>
@@ -50,7 +81,7 @@
             </li>
         </ul>
     </div>
-    
+    -->
     <h3 class="textbody">Productos</h3>
 
     <div>
@@ -176,8 +207,8 @@
                     <a href="https://wa.me/5491124762913"></i></i><i class="fa-brands fa-whatsapp" style="color: #f1ceda;"></i></a>
                     <a href="https://www.instagram.com/linda.creacioness/"><i class="fa-brands fa-instagram" style="color: #f1ceda;"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100082868035777"><i class="fa-brands fa-facebook" style="color: #f1ceda;"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100082868035777"><i class="fa-brands fa-facebook-messenger" style="color: #f1ceda;"></i></i></a>
-                    <a href="creacioness.linda@gmail.com"><i class="fa-solid fa-envelope" style="color: #f1ceda"></i></a>
+                    <a href="https://www.facebook.com/messages/t/100446512653845"><i class="fa-brands fa-facebook-messenger" style="color: #f1ceda;"></i></i></a>
+                    <a href="mailto:creacioness.linda@gmail.com"><i class="fa-solid fa-envelope" style="color: #f1ceda"></i></a>
                 </div>
             </section>
             <section>
@@ -197,4 +228,13 @@
 
     <a class="waico" href="https://wa.me/5491124762913"><i class="fa-brands fa-square-whatsapp" style="color: #33db5d;"></i></a>
 </body>
+<script>
+    var splide = new Splide( '.splide', {
+    type    : 'loop',
+    perPage : 3,
+    autoplay: true,
+    } );
+
+    splide.mount();
+</script>
 </html>

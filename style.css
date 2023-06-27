@@ -44,6 +44,7 @@ header {
     color: rgb(226, 140, 193);
     font-weight: 550;
     padding-right: 20px;
+    text-decoration: underline;
     
 }
 
@@ -91,12 +92,13 @@ header {
 
 .banner{
     width: 500px;
-    height: 680px;
+    height: 650px;
     list-style: none;
     display: flex;
     margin-left: 53px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 20px;
+    border: solid rgba(175, 80, 147, 0.925) 1px;
 }
 
 h2 {
@@ -121,7 +123,7 @@ h2 {
 h3 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 a{
@@ -160,6 +162,10 @@ h4:hover{
     text-shadow: 0 0 2px rgba(175, 80, 147, 0.925);
 }
 
+.icon-hov:hover{
+    text-shadow: 0 0 2px rgba(175, 80, 147, 0.925);
+}
+
 .parpedidos p{
     display: flex;
     justify-content: left;
@@ -176,7 +182,7 @@ h4:hover{
 .titpedidos h3{
     margin-top: 70px;
     margin-bottom: 0px;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: coolvetica;
     color: rgb(226, 140, 193);
     font-size: 35px;
@@ -185,11 +191,22 @@ h4:hover{
 
 }
 
+.dp{
+    display: flex;
+    margin-top: 100px;
+}
+
+.img-ped{
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
 .prod-container{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 40px;
 
 }
 
@@ -260,7 +277,7 @@ h4:hover{
     font-family: coolvetica;
     font-weight: 500;
     color: #f1ceda;
-    font-size: 30px;
+    font-size: 30px;
 }
 
 .derechos{
@@ -327,4 +344,10 @@ footer {
     color:#f1ceda;
     display: block;
     
+}
+
+.ifr{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
 }
